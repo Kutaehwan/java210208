@@ -20,11 +20,11 @@ public class Practice {
 	public static void main(String[] args) {
 		
 		double total = 0;
-		total = total(kor, math, eng);
+		total = total(kor, math, eng);		// total 메소드 호출하여 return 값 반환 , 총 점수
 		System.out.println("총 점수 : " + total);
 		
 		double avg = 0;
-		avg = avg(total, 3);
+		avg = avg(total, 3);	// avg 메소드 호출하여 return 값 반환, 평균 값
 		System.out.println("평균 점수 : " + avg);
 
 	}
